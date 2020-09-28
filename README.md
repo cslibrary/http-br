@@ -16,6 +16,9 @@
       - [OPTIONS](#options)
       - [PATCH](#patch)
       - [CONECT](#conect)
+6. [Status Code](#status-code)
+      - [Principais](#principais)
+      - [Principais Prefixos](#principais-prefixos)
 
 ## HTTP em poucas palavras
 
@@ -90,3 +93,19 @@ Serve para atualizar partes de um recurso, e não o recurso todo.
 ### CONECT
 
 Serve para uso com um proxy que possa se tornar um túnel SSL e TLS (um túnel pode ser usado, por exemplo, para criar uma conexão segura).
+
+## Status Code
+
+### Principais
+
+- `200` OK
+- `301` Moved Permanently
+- `404` Not Found
+- `500` Internal Server Error
+
+### Principais Prefixos
+
+- `2XX` Successful responses
+- `3XX` Redirection messages
+- `4XX` Client error responses
+- `5XX` Server error responses
