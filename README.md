@@ -5,7 +5,7 @@
 1. [HTTP em poucas palavras](#http-em-poucas-palavras)
 2. [Portas padrões](#portas-padrões)
 3. [Corpo de uma requisição](#corpo-de-uma-requisição)
-4. [URI (Uniform Resource Identifier)](#uri-(uniform-resource-identifier))
+4. [URI (Uniform Resource Identifier)](#uri-uniform-resource-identifier)
 5. [Mêtodos HTTP](#mêtodos-http)
       - [GET](#get)
       - [HEAD](#head)
@@ -31,7 +31,7 @@
 
 ## Corpo de uma requisição
 
-```https://www.meusite.com.br:443/corpo-de-um-http```
+`https://www.meusite.com.br:443/corpo-de-um-http`
 
 - Protocolo => `https`
 - Web => `www`
