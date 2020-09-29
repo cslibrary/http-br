@@ -109,3 +109,15 @@ Serve para uso com um proxy que possa se tornar um túnel SSL e TLS (um túnel p
 - `3XX` Redirection messages
 - `4XX` Client error responses
 - `5XX` Server error responses
+
+## Mime Types
+
+- Accept: text/html
+- Accept: text/css
+- Accept: application/xml
+- Accept: application/json
+- Accept:image/jpeg
+- Accept: image/*
+- Accept: \*/*
+
+mais [mime types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types).
