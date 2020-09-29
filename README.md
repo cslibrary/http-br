@@ -121,3 +121,37 @@ Serve para uso com um proxy que possa se tornar um túnel SSL e TLS (um túnel p
 - Accept: \*/*
 
 mais [mime types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types).
+
+## REST (Representational State Transfer)
+
+```https
+REST = RECURSO(URI) + OPERAÇÕES(GET-POST-DELETE) + REPRESENTAÇÃO(HTML-JSON-XML)
+```
+
+GET
+
+```http
+GET http://ifood.com/api/restaurante
+//PEDE DADOS DE TODOS RESTAURANTES
+```
+
+POST
+
+```http
+POST http://ifood.com/api/restaurante
+//ADICIONA UM RESTAURANTE
+```
+
+PUT
+
+```http
+PUT http://ifood.com/api/restaurante/42
+//ATUALIZA O RESTAURANTE 42
+```
+
+DELETE
+
+```http
+DELETE http://ifood.com/api/restaurante/42
+//REMOVE O RESTAURANTE 42
+```
